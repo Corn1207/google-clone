@@ -21,7 +21,7 @@
           <a href=""></a>
         </li>
         <li>
-          <a href=""><img src="./img/profile-picture.png" alt="Rodrigo"></a>
+          <a href="#"><img src="./img/profile-picture.png" alt="Rodrigo"></a>
         </li>
       </ul>
     </nav>    
@@ -29,27 +29,38 @@
     <a href=""></a>
   </header>
   <main>
-    <div>
+    <section class="main-logo">
       <img src="./img/google_logo.png" alt="Google Logo">
-    </div>
-    <input type="text">
-    <input type="button" value="Google Search">
-    <input type="button" value="I'm Feeling Lucky">
-    <span>Google offered in: <a href="">Español (Latinoamérica)</a> <a href="">Quachua</a></span>
+    </section>
+    <section class="main-input">
+      <div class="main-input-container">
+        <span class="search-icon">
+        </span>
+        <input type="text">
+        <a class="micro-icon" href=""></a>
+      </div>
+    </section>
+    <section class="main-buttons">
+      <div><button>Google Search</button></div>
+      <div><button>I'm Feeling Lucky</button></div>
+    </section>
+    <section class="main-links">
+      <span>Google offered in: <a href="#">Español (Latinoamérica)</a> <a href="#">Quachua</a></span>
+    </section>
   </main>
   <footer>
-    <div><span>Peru</span></div>
-    <div>
-      <a href="">About</a>
-      <a href="">Advertising</a>
-      <a href="">Business</a>
-      <a href="">How Search works</a>
-    </div>
-    <div>
-      <a href="">Privacy</a>
-      <a href="">Terms</a>
-      <a href="">Settings </a>
-    </div>
+    <!-- <div class="footer-country"><span>Peru</span></div> -->
+    <ul class="footer-left">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Advertising</a></li>
+      <li><a href="#">Business</a></li>
+      <li><a href="#">How Search works</a></li>
+    </ul>
+    <ul class="footer-right">
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Settings </a></li>
+    </ul>
   </footer>
 </body>
 </html>
